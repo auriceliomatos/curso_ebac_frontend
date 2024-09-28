@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(177, 228, 96);
+    padding: 16px 0;
+    color: rgb(26, 192, 192);
+}
+
+header .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+color: rgb(42, 56, 165);
+text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articus {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articus article img {
+  /*  height: 180px;*/
+    width: 100%;
+}
+
+.articus article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articus article {
+    margin-bottom: 16px;
+}
+
+.articus article h3 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.articus article a {
+    background-color: blue;
+    color: rgb(241, 220, 220);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articus article a:hover {
+    text-decoration: underline;
+}
+.articus article p,
+.articus article a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.articus article {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+}
+
+
+#sport {
+    background-color: rgba(0,255,0,0.1);
+}
+#sport .articus article a{
+    background-color: rgb(143, 235, 143);
+}
+/*#sport .articus article a{
+    color:rgb(212, 25, 25);
+}*/
+/*#sport .articus article p{
+   background-color: aliceblue;
+}*/
+
+
+#economy{
+    background-color: rgb(201, 201, 132);
+}
+#economy .articus article a {
+    background-color: darkgoldenrod;
+}
+
+
+#tec {
+    background-color: rgb(185, 101, 162);
+}
+#tec .articus article a {
+    background-color: rgb(235, 102, 120);
+}
+
+#Entretenimento {
+    background-color: rgb(204, 248, 127);
+}
+#Entretenimento .articus article a {
+    background-color: rgb(79, 90, 145);
+}
