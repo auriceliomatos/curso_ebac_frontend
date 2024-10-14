@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+<!-----------  adiciona tarefa -------------------------->
+    <div class="container">
+        <section class="header">
+    <h1>Lista de Tarefas</h1>
+        </section>
+<!---------  formulario tarefa -------------------------->
+    <form id="taskForm" class="taskForm">
+        <div class="tarefa">
+
+        <label for="task">Tarefa:</label>
+
+        <input type="text" id="task" required placeholder="Digite Tarefa...">
+
+        <input type="submit" value="Adicionar">
+        
+    </div>
+    </form>
+<!----------- As tarefas serão adicionadas aqui -------------->
+    <ul id="taskList"> </ul>
+
+</div>
+<!--------- Incluindo jQuery -------------------->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
