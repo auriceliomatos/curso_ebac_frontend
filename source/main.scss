@@ -12,7 +12,7 @@ $hover-color: #4cd136;
 $text-color: #fff;
 
 body {
-    background-color: $boby-color;/*--------------*/
+    background-color: $boby-color;
 }
 
 
@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: $header-color;/*------------*/
+    background-color: $header-color;
     position: sticky;
     top: 0;
     left: 0;
@@ -49,7 +49,7 @@ li {
 }
 .menu li a {
     text-decoration: none;
-    color: $text-color;/*------------*/
+    color: $text-color;
     
 }
 
@@ -75,8 +75,8 @@ section {
     text-decoration:none;
     align-items: center;
     display:block;
-    background-color: $buton-color;/*------------*/
-    color: $text-color;/*------------*/
+    background-color: $buton-color;
+    color: $text-color;
     padding: 8px 0;
     border-radius: 8px;
     margin-top: 8px;
@@ -84,7 +84,7 @@ section {
 }
 
 .product-button:hover {
-    background-color: $hover-color;  /*------------*/
+    background-color: $hover-color; 
 }
 
 @media screen and (max-width: 1023px) {
