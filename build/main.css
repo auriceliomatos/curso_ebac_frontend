@@ -6,7 +6,11 @@
 }
 
 body {
-  background-color: #f5f6ff; /*--------------*/
+  background-color: #f5f6fa;
+}
+
+li {
+  list-style: none;
 }
 
 .container {
@@ -16,7 +20,7 @@ body {
 }
 
 header {
-  background-color: #182c61; /*------------*/
+  background-color: #182C61;
   position: sticky;
   top: 0;
   left: 0;
@@ -24,11 +28,12 @@ header {
 
 header .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 16px 0;
 }
-header .container .menu {
+
+.menu {
   display: flex;
 }
 
@@ -37,13 +42,9 @@ header .container .menu {
   margin-left: 24px;
 }
 
-li {
-  list-style: none;
-}
-
 .menu li a {
+  color: #fff;
   text-decoration: none;
-  color: #fff; /*------------*/
 }
 
 section {
@@ -65,18 +66,18 @@ section {
 }
 
 .product-button {
-  text-decoration: none;
-  align-items: center;
   display: block;
-  background-color: #44bd31; /*------------*/
-  color: #fff; /*------------*/
+  background-color: #44bd32;
+  color: #fff;
+  text-align: center;
   padding: 8px 0;
   border-radius: 8px;
   margin-top: 8px;
+  text-decoration: none;
 }
 
 .product-button:hover {
-  background-color: #4cd136; /*------------*/
+  background-color: #4cd137;
 }
 
 @media screen and (max-width: 1023px) {
@@ -97,4 +98,3 @@ section {
   }
 }
 
-/*# sourceMappingURL=main.css.map */

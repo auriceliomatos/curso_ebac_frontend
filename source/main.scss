@@ -4,18 +4,14 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
-$display: flex;
-$boby-color: #f5f6ff;
-$header-color: #182c61;
-$buton-color: #44bd31;
-$hover-color: #4cd136;
-$text-color: #fff;
 
 body {
-    background-color: $boby-color;
+    background-color: #f5f6fa;
 }
 
-
+li {
+    list-style: none;
+}
 
 .container {
     max-width: 1024px;
@@ -24,33 +20,31 @@ body {
 }
 
 header {
-    background-color: $header-color;
+    background-color: #182C61;
     position: sticky;
     top: 0;
     left: 0;
 }
 
 header .container {
-    display: $display;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px 0;
-    .menu {
-        display: $display;
-    }
+}
+
+.menu {
+    display: flex;
 }
 
 .menu li {
     font-weight: bold;
     margin-left: 24px;
 }
-li {
-    list-style: none;
-}
+
 .menu li a {
+    color: #fff;
     text-decoration: none;
-    color: $text-color;
-    
 }
 
 section {
@@ -72,19 +66,18 @@ section {
 }
 
 .product-button {
-    text-decoration:none;
-    align-items: center;
-    display:block;
-    background-color: $buton-color;
-    color: $text-color;
+    display: block;
+    background-color: #44bd32;
+    color: #fff;
+    text-align: center;
     padding: 8px 0;
     border-radius: 8px;
     margin-top: 8px;
-   
+    text-decoration: none;
 }
 
 .product-button:hover {
-    background-color: $hover-color; 
+    background-color: #4cd137;
 }
 
 @media screen and (max-width: 1023px) {
@@ -100,7 +93,7 @@ section {
 
 @media screen and (max-width: 767px) {
     .products {
-        display:block;
+        display: block;
     }
 
     .product-item  {
