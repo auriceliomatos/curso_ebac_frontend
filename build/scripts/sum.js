@@ -1,1 +1,1 @@
-function ಠ_ಠ394(ಠ_ಠ395,ಠ_ಠ396){return ಠ_ಠ395+ಠ_ಠ396}console.log(ಠ_ಠ394(15,50));
+function somar(o,n){return o+n}console.log(somar(15,50));
