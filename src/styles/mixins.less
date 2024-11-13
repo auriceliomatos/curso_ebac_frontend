@@ -1,0 +1,24 @@
+// Mixin para responsividade
+.responsive(@breakpoint) {
+    @media (max-width: @breakpoint) {
+        @arguments();
+    }
+}
+
+// Escaping para valores CSS específicos
+.opacity(@value) {
+    opacity: e(@value);
+}
+
+// Mixin para botões estilizados
+.button-styles(@bg-color, @text-color) {
+    background-color: @bg-color;
+    color: @text-color;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+    opacity: 0.8;
+    }
+}
